@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import axios from 'axios';
 
+// const BASE_URL = 'http://localhost:5000';
+// const BASE_URL = 'https://notetakingapp-80fw.onrender.com/';
 export const Login = ({setIsLogin}) =>{
     const [user, setUser] = useState({name: '',email: '',password: '' })
     const [err, setErr] = useState('')
